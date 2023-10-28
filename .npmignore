@@ -1,0 +1,14 @@
+.gitignore
+**/*npm-debug.log.*
+node_modules
+npm-debug.log
+src
+tsconfig.json
+coverage
+reports
+api
+e2e
+.editorconfig
+Jenkinsfile
+.eslintrc.js
+.eslintignore

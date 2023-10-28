@@ -1,0 +1,9 @@
+node_modules/*
+src/polyfills.ts
+dist/*
+reports/*
+docs/*
+src/*
+.eslintrc.js
+*.spec.ts
+*.test.ts

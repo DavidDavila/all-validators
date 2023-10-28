@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": false,
+    "skipLibCheck": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "typeRoots": ["node_modules/@types", "/src/interfaces/creditcards.d.ts"],
+    "target": "es6",
+    "module": "CommonJS",
+     
+  },
+
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/**/*.spec.ts", "node_modules/**/*", "jest.config.js"]
+}
